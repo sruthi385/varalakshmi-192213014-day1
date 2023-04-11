@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,temp;
+    printf("enter first element");
+    scanf("%d",&a);
+    printf("enter second element");
+    scanf("%d",&b);
+    temp=a;
+    //temp=10
+    a=b;
+    b=temp;
+    printf("after swapping the value of a is %d",a);
+    printf("after swapping the value of b is %d",b);
+    
+
+    return 0;
+}
